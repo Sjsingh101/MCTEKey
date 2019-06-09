@@ -23,14 +23,14 @@ public class CourseInfoActivity extends AppCompatActivity {
         im1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CourseInfoActivity.this,ComingSoonActivity.class);
+                Intent intent = new Intent(CourseInfoActivity.this,SyllabusActivity.class);
                 startActivity(intent);
             }
         });
         im2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CourseInfoActivity.this,ComingSoonActivity.class);
+                Intent intent = new Intent(CourseInfoActivity.this,DurationActivity.class);
                 startActivity(intent);
             }
         });
@@ -44,7 +44,7 @@ public class CourseInfoActivity extends AppCompatActivity {
         im4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CourseInfoActivity.this,ComingSoonActivity.class);
+                Intent intent = new Intent(CourseInfoActivity.this,ScheduleActivity.class);
                 startActivity(intent);
             }
         });

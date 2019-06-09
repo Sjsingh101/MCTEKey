@@ -11,8 +11,18 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/mcte"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ClaimActivity"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DurationActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".ScheduleActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".SyllabusActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".FeedbacActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ClaimActivity" />
         <activity android:name=".ComingSoonActivity" />
         <activity
             android:name=".MealMngActivity"
